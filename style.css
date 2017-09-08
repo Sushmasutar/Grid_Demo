@@ -1,0 +1,94 @@
+/*
+	Theme Name: WD OSWAD MARKET CHILD
+	Description: Child theme for the OswadMarket
+	Author: wpdance.com
+	Template: wp_oswad_market
+*/
+
+
+/*hide for discription and SKU on brand page only*/
+/*
+	.products.grid .product_item_wrapper .product-meta-wrapper .short-description, .products.grid .product_item_wrapper .product-meta-wrapper .product_sku {
+    display: none !important;
+}*/
+.product_item_wrapper .product-meta-wrapper .short-description{
+	display: none !important;
+}
+.products.grid .product_item_wrapper .product-meta-wrapper .product_sku {
+    display: none !important;
+}
+.term-description {
+    display: inline-block;
+    color: #000;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
+#template-wrapper #main-module-container .breadcrumb-title-wrapper .breadcrumb-title {
+    background-repeat: no-repeat !important;
+}
+.sixth-footer-widget-area .sixth-footer-widget-area-1.col-sm-24 {
+    text-align: center;
+}
+
+#mc4wp_form_widget-3 .widget_subscriptions{
+	padding-top: 55px;
+	padding-bottom: 55px;
+	margin-top: 0;
+	text-align: center;
+}
+#mc4wp_form_widget-3 .subscribe_widget .custom_mc_form{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+	padding: 0 10px;
+}
+
+#mc4wp_form_widget-3 .subscribe_widget .custom_mc_form .subscribe-email{
+	width: 100%;
+	float: none;
+	position: relative;
+	margin: 0;
+	line-height: 48px;
+	height: 80px;
+	padding: 16px;
+	border: 1px solid #fff;
+	max-width: 100%;
+}
+#mc4wp_form_widget-3 .subscribe_widget .custom_mc_form .subscribe-email input.subscribe_email{
+	color: #fff;
+	float: none;
+	height: 48px;
+	font-size: 18px;
+	line-height: 22px;
+	border: 0;
+	position: relative;
+	z-index: 1;
+	padding: 8px 180px 10px 20px;
+	background: transparent;
+	max-width: 100%;
+	width: 100%;
+}
+#mc4wp_form_widget-3 .subscribe_widget .custom_mc_form .button{
+	font-size: 20px;
+	line-height: 48px;
+	padding: 0 22px;
+	float: none;
+	border: 0;
+	color: #fff;
+	text-transform: none !important;
+	position: absolute;
+	top: 16px !important;
+	right: 26px !important;
+	z-index: 2;
+}
+
+#mc4wp-form-1 .mc4wp-response {
+    text-align: center;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}

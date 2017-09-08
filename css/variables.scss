@@ -1,0 +1,29 @@
+/*variables*/
+$white: #ffffff;
+$theme_color: #57c5a0;
+$theme_bg_gray: #eeebe7;
+$theme_bg_dark_gray: #ebe7df;
+$theme_bg_black: #242424;
+$theme_bg_light_black: #2e2e2e;
+$theme_bg_orange: #f27e4b;
+$text_color: #acacac;
+
+$light: 300;
+$bold: 600;
+
+$title_font: 36px;
+$text_font: 14px;
+
+$transform: uppercase;
+$none_value: none;
+
+$font_family: 'Aller', sans-serif;
+
+/*media query variable*/
+$exlarge_device: "all and (max-width:1200px)";
+$large_device: "all and (max-width:1023px)";
+$tablet_device: "all and (max-width:991px)";
+$medium_device: "all and (max-width:767px)";
+$mobile_device: "all and (max-width:567px)";
+$small_device: "all and (max-width:360px)";
+$exsmall_device: "all and (max-width:320px)";
