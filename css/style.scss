@@ -315,7 +315,11 @@ header{
 							color: $theme_bg_light_black;
 							font-size: 16px;
 							padding: 20px 21px;
-
+							transition: 0.4s all ease-in-out;
+							&:hover{
+								color: $theme_color;
+								
+							}	
 							@media #{$tablet_device} {
 								padding: 20px 15px;
 							}
